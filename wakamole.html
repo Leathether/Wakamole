@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"></meta>
+        <title>Wakamole Game</title>
+        <link rel="icon" type="image/x-icon" href="wakamolefavicon.ico"></link>
+        <link rel="stylesheet" href="wakamole.css"></link>
+    </head>
+    <body>
+
+
+    <audio id="backgroundmusic" preload="auto">
+        <source src="wakamolegamebackgroundmusic.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="winsound" preload="auto">
+        <source src="wakamolewinsound.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="coinsound" preload="auto">
+        <source src="wakamolecoinsound.mp3" type="audio/mpeg">
+    </audio>
+
+        <div style="
+        background-image:url('peachcastle.png');
+        background-repeat:no-repeat;
+        background-size:100% 100%;">
+
+            <button id="pointsdisplay">Points: 0</button>
+
+            <button id="startbutton">
+            <b>Play</b>
+            </button>
+
+            <button id="b1"
+            class="buttons nomole"
+            style="position:relative;top:10vh;left:-60vw"
+            ></button>
+
+            <button id="b2"
+            class="buttons nomole"
+            style="position:relative;top:-16vh;left:36vw">
+            </button>
+
+            <button id="b3"
+            class="buttons nomole"
+            style="position:relative;top:-16vh;left:45vw">
+            </button>
+
+            <button id="b4"
+            class="buttons nomole"
+            style="position:relative;top:15vh;left:-35vw">
+            </button>
+
+            <button id="b5"
+            class="buttons nomole"
+            style="position:relative;top:15vh;left:-25vw">
+            </button>
+
+            <button id="b6"
+            class="buttons nomole"
+            style="position:relative;top:-10.25vh;left:65vw">
+            </button>
+
+            <button id="b7"
+            class="buttons nomole"
+            style="position:relative;top:20vh;left:-15vw">
+            </button>
+
+            <button id="b8"
+            class="buttons nomole"
+            style="position:relative;top:20vh;left:-5vw">
+            </button>
+
+            <button id="b9"
+            class="buttons nomole"
+            style="position:relative;top:20vh;left:4vw;"></button>
+
+            <p id="winmessage">You Win!</p>
+
+        </div>
+        <script src="wakamole.js"></script>
+    </body>
+</html>
